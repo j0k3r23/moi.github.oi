@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>LAUREEN</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="images/catflower.jpg"></img>
+            <h1 class="hh" id="name">Hey Scheva!</h1>
+            <p class="pp" id="question"> Veux-tu être ma Valentine ?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">non</button>
+                <button onclick="showMessage('Yes')" id="yesButton">oui</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>"Beau essai, mais tu ne peux pas t'échapper aussi facilement !"</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>YAY! À bientôt le 14, ma chérie.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
